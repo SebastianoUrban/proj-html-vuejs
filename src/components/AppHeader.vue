@@ -1,12 +1,16 @@
 <template>
     <div>
-        <h1>header</h1>
+        <NavBar/>
     </div>
 </template>
 
 <script>
+    import NavBar from './sub_components/NavBar.vue';
+
     export default {
-        
+        components : {
+            NavBar
+        }
     }
 </script>
 
