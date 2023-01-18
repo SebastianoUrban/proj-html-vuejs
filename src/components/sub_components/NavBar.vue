@@ -28,6 +28,7 @@
         border-width: 8px;
         border-color: rgba($color: #000000, $alpha: 0.0);
         font-weight: bold;
+        font-family: $font-body;
         &.active {
             border-color: $color-cube-5;
             color: $color-cube-5;
