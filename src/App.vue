@@ -21,5 +21,7 @@
 </script>
 
 <style lang="scss">
-  @use './style/_variables.sass' as *;
+  @use './style/_variables.scss' as *;
+  @use './style/general.scss' as *;
+  @use 'bootstrap/scss/bootstrap.scss' as *;
 </style>
