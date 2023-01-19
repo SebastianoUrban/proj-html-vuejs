@@ -66,5 +66,30 @@ export const store = reactive({
             author : 'Mary Maxey',
             newspaper : 'The Globe And Mail'
         }]
+    },
+    Section4 : {
+        title : 'Upcoming Events',
+        subtitle : 'MEET THE AUTHOR IN PERSON',
+        cards : [{
+                image : 'src/assets/images/event-05.jpg',
+                title : 'Chicago Book Signing',
+                body : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil in voluptates quia deserunt quidem voluptas laborum, sapiente aliquam',
+            },{
+                image : 'src/assets/images/event-04.jpg',
+                title : 'Meet & Greet With Amanda',
+                body : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil in voluptates quia deserunt quidem voluptas laborum, sapiente aliquam',
+            },{
+                image : 'src/assets/images/event-07.jpg',
+                title : 'Open Book: Dialogues',
+                body : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil in voluptates quia deserunt quidem voluptas laborum, sapiente aliquam',
+            }]
+    },
+    Section5 : {
+        title : 'Subscribe To My Newslatter',
+        subtitle : 'BE NOTIFIED ABOUT BOOK SIGNING TOUR DATES',
+        buttonText : 'Subscribe',
+        buttonColor : 'green',
+        body : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil in voluptates',
+        image : 'src/assets/images/banner-2.jpg'
     }
 });

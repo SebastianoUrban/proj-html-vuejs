@@ -44,7 +44,6 @@
     @use '../../style/variables' as *;
     section {
         width: 100%;
-        height: 600px;
         padding: 50px 0;
         background-size: cover;
         background-repeat: no-repeat;
