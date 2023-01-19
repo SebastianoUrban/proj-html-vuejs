@@ -36,5 +36,35 @@ export const store = reactive({
             'src/assets/images/bn-logo-tall.png',
             'src/assets/images/kindle-logo-tall.png'
         ]
+    },
+    Section3 : {
+        title : 'What The Critics Say',
+        subtitle : 'TESTIMONIAL FROM AROUND THE WORLD',
+        buttonText : 'Read All Testimonials',
+        buttonColor : 'orange',
+        mainCard : {
+            image : 'src/assets/images/testimonial2-2x.jpg',
+            title : 'Best Author Of His Generation',
+            subtitle : 'This book will change your prospective on life',
+            body : [
+                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil in voluptates quia deserunt quidem voluptas laborum, sapiente aliquam eaque repellendus ipsam, debitis, minus architecto minima reiciendis?',
+                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil in voluptates quia deserunt quidem voluptas laborum, sapiente aliquam eaque repellendus ipsam, debitis, minus architecto minima reiciendis?'],
+            logo : 'src/assets/images/nytimes-logo-white-xsmall.png',
+            author : 'Justine Kilpatrick',
+            newspaper : 'The New York Times'
+        },
+        secondaryCards : [{
+            title : 'A True Masterpiece, Bravo!',
+            body : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil in voluptates quia deserunt quidem voluptas laborum, sapiente aliquam eaque repellendus ipsam, debitis, minus architecto minima reiciendis?',
+            logo : 'src/assets/images/theguardian-xsmall.png',
+            author : 'Gerard Hendley',
+            newspaper : 'The Guardian'
+        },{
+            title : 'A Unique View On The World',
+            body : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil in voluptates quia deserunt quidem voluptas laborum, sapiente aliquam eaque repellendus ipsam, debitis, minus architecto minima reiciendis?',
+            logo : 'src/assets/images/globe-xsmall.png',
+            author : 'Mary Maxey',
+            newspaper : 'The Globe And Mail'
+        }]
     }
 });

@@ -72,7 +72,7 @@
       button {
         width: 50%;
         height: 60px;
-        border: 1px solid $matirial-design-3;
+        border: 1px solid $material-design-3;
         background-color: $color-cube-1;
         font-size: 1.1rem;
         font-weight: bold;

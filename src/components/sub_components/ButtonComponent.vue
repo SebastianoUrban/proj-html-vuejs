@@ -19,15 +19,16 @@
     button {
         line-height: 50px;
         font-family: $font-body;
+        font-weight: 500;
         padding: 0 1rem;
         border-radius: $btn-border-radius;
         color: $color-cube-1;
         border: none;
     }
     .orange {
-        background-color: $matirial-design-1;
+        background-color: $color-cube-5;
     }
     .green {
-        background-color: $matirial-design-3;
+        background-color: $material-design-3;
     }
 </style>
