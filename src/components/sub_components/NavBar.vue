@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <ul class="list-unstyled w-50 d-flex justify-content-between">
+        <ul class="list-unstyled d-flex justify-content-between">
             <li v-for="page, index in navbarList" :key="index" :class="(index == activIndex) ? 'active' : ''" @click="activIndex = index">
                 {{ page }}
             </li>
@@ -22,13 +22,18 @@
 
 <style lang="scss" scoped>
     @use '../../style/variables' as *;
+    nav {
+        width: 50%;
+        color: $color-cube-1;
+    }
     li {
-        line-height: 80px;
+        line-height: 100px;
         border-top: solid;
         border-width: 8px;
         border-color: rgba($color: #000000, $alpha: 0.0);
         font-weight: bold;
         font-family: $font-body;
+        font-size: 1.1rem;
         &.active {
             border-color: $color-cube-5;
             color: $color-cube-5;

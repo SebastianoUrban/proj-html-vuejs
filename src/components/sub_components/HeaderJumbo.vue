@@ -5,6 +5,10 @@
         <HandwriteText :text="data[activeIndex].author"/>
         <p class="newspaper-body">{{ data[activeIndex].newspaperArticle }}</p>
         <h5 class="newspaper-signature">{{ data[activeIndex].newspaperSignature }}</h5>
+        <div class="slider">
+          <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
       </article>
       <article class="buy d-flex align-items-end">
         <BuyArticle :data="data[activeIndex].buySection"/>
@@ -45,12 +49,12 @@
     .wrapper {
       height: 100%;
       width: 100%;
-      background: linear-gradient( to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.7) 100% );
+      background: linear-gradient( to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100% );
 
       article.newspaper {
         width: 65%;
         height: 100%;
-        padding: 0 14% 0 15%;
+        padding: 5% 14% 0 15%;
         p.newspaper-body {
           color: $color-cube-1;
           font-family: $font-title;
@@ -61,6 +65,30 @@
           color: $color-cube-4;
           font-family: $font-body;
           font-style: italic;
+        }
+        div.slider {
+          margin-top: 60px;
+          button {
+            width: 60px;
+            height: 60px;
+            border: none;
+            color: $color-cube-1;
+            background-color: $color-cube-2;
+            font-size: 1.5rem;
+            font-weight: bold;
+            i {
+              margin-right: 10px;
+            }
+            &.prev {
+              border-top-left-radius: $btn-border-radius;
+              border-bottom-left-radius: $btn-border-radius;
+            }
+            &.next {
+              border-top-right-radius: $btn-border-radius;
+              border-bottom-right-radius: $btn-border-radius;
+              margin-left: 5px;
+            }
+          }
         }
       }
       article.buy {
