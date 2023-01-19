@@ -6,6 +6,7 @@
         <SectionStyle3 :data="store.Section3"/>
         <SectionStyle4 :data="store.Section4"/>
         <SectionStyle5 :data="store.Section5"/>
+        <SectionStyle6 :data="store.Section6"/>
     </main>
 </template>
 
@@ -17,6 +18,7 @@
     import SectionStyle3 from '../components/MainSectionComponents/SectionStyle3.vue';
     import SectionStyle4 from '../components/MainSectionComponents/SectionStyle4.vue';
     import SectionStyle5 from '../components/MainSectionComponents/SectionStyle5.vue';
+    import SectionStyle6 from '../components/MainSectionComponents/SectionStyle6.vue';
 
     export default {
         components : {
@@ -25,7 +27,8 @@
             SectionStyle2,
             SectionStyle3,
             SectionStyle4,
-            SectionStyle5
+            SectionStyle5,
+            SectionStyle6
         },
         data() {
             return {

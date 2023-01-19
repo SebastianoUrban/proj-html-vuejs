@@ -91,5 +91,22 @@ export const store = reactive({
         buttonColor : 'green',
         body : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil in voluptates',
         image : 'src/assets/images/banner-2.jpg'
+    },
+    Section6 : {
+        title : 'Dig A Little Deeper Into Damon Vaughn',
+        subtitle : 'FIND OUT MORE ABOUT THE AUTHOR HIMSELF',
+        cards : [{
+                image : 'src/assets/images/box-1.jpg',
+                title : 'About Me',
+                subtitle : 'Lorem ipsum dolor sit',
+            },{
+                image : 'src/assets/images/box-4.jpg',
+                title : 'My Latest Book',
+                subtitle : 'Lorem ipsum dolor sit',
+            },{
+                image : 'src/assets/images/box-3.jpg',
+                title : 'Book Signing',
+                subtitle : 'Lorem ipsum dolor sit',
+            }]
     }
 });
