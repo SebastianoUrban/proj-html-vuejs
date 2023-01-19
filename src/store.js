@@ -12,5 +12,11 @@ export const store = reactive({
             body : 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta nisi veniam nam aspernatur unde velit quidem?',
             image : 'src/assets/images/book-widget.png'
         }
-    }]
+    }],
+    Section1 : {
+        title : 'More About Damon Vaughn',
+        body : 'damon Vaughn is a professor of psycology at the University of Toronto, a clinical psycologist and the author of the multi -milion copy bestseller "The story of my life"',
+        buttonText : 'Meet The Author',
+        buttonColor : 'green'
+    }
 });
