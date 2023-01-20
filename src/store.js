@@ -6,6 +6,7 @@ export const store = reactive({
         author : 'Damon Vaughn',
         newspaperArticle : 'Best-selling author and the most influential public intellectual in the western world right now.',
         newspaperSignature : '- The New York Times',
+        price : '39',
         buySection : {
             title : 'Last Book Release',
             subtitle : 'D.  VAUGHN AUTOBIOGRAPHY',

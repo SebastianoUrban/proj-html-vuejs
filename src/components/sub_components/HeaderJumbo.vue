@@ -13,6 +13,16 @@
       <article class="buy d-flex align-items-end">
         <BuyArticle :data="data[activeIndex].buySection"/>
       </article>
+      <div class="tags text-center">
+        <div class="tag d-flex flex-column justify-content-evenly">
+          <p ><i class="fa-solid fa-folder"></i></p>
+          <h4>Demos</h4>
+        </div>
+        <div class="tag">
+          <p><span class="dol">$</span><span class="price">{{ data[activeIndex].price }}</span></p>
+          <h4>On Sale</h4>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -50,7 +60,37 @@
       height: 100%;
       width: 100%;
       background: linear-gradient( to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100% );
-
+      position: relative;
+      .tags {
+        position: absolute;
+        top: 20%;
+        right: 20px;
+        .tag {
+          background-color: $color-cube-1;
+          height: 80px;
+          width: 80px;
+          margin-top: 10px;
+          border-radius: $btn-border-radius;
+          color: $color-cube-3;
+          p {
+            font-size: 2rem;
+            margin: 0;
+            .price {
+              color: $material-design-3;
+              font-weight: 600;
+            }
+            .dol {
+              color: $material-design-3;
+              font-size: 1rem;
+              vertical-align: text-top;
+              font-weight: bold;
+            }
+          }
+          h4 {
+            font-size: 1rem;
+          }
+        }
+      }
       article.newspaper {
         width: 65%;
         height: 100%;

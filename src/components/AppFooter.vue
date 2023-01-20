@@ -27,6 +27,7 @@
                 <p>{{ store.footer.copyright }}</p>
             </div>
             <img src="../assets/images/author-logo-round.png" alt="">
+            <button><i class="fa-solid fa-angle-up"></i></button>
         </div>
     </footer>
 </template>
@@ -53,6 +54,17 @@
                 position: absolute;
                 top: 25%;
                 left: 10%;
+            }
+            button {
+                width: 50px;
+                height: 50px;
+                background-color: $color-cube-3;
+                border: none;
+                border-radius: $btn-border-radius;
+                color: $color-cube-1;
+                position: absolute;
+                bottom: 0%;
+                right: 10%;
             }
             .footer-up {
                 width: 60%;
