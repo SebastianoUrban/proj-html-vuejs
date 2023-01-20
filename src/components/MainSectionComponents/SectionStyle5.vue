@@ -1,13 +1,13 @@
 <template>
-    <section :style="{backgroundImage : 'url('+ data.image +')'}">
+    <section :style="{backgroundImage : 'url('+ data.image +')'}" class="bg-cover-centered w-100">
         <div class="section-up d-flex flex-column align-items-center text-center">
-            <h1>{{ data.title }}</h1>
-            <h2>{{ data.subtitle }}</h2>
+            <h1 class="font-title font-bold color-light">{{ data.title }}</h1>
+            <h2 class="font-body color-primary">{{ data.subtitle }}</h2>
             <div class="form-newsletter">
                 <input type="text" name="" id="" placeholder="Insert your email ...">
                 <ButtonComponent :text="data.buttonText" :customWidth="'200px'" :color="data.buttonColor"/>
             </div>
-            <p>{{ data.body }}</p>
+            <p class="font-body color-mid-light">{{ data.body }}</p>
         </div>
     </section>
 </template>
@@ -29,34 +29,23 @@
 <style lang="scss" scoped>
     @use '../../style/variables' as *;
     section {
-        width: 100%;
         padding: 125px 0;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
     }
     div.section-up {
         background: linear-gradient( to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100% );
         h1 {
             width: 20%;
-            font-family: $font-title;
             font-size: 3rem;
-            font-weight: bold;
-            color: $color-cube-1;
         }
         h2 {
-            font-family: $font-body;
             font-size: 1.5rem;
             font-weight: 500;
-            color: $color-cube-5;
             margin-top: 20px;
         }
         p {
             width: 25%;
-            font-family: $font-body;
             font-size: 1.2rem;
             font-weight: 600;
-            color: $color-cube-4;
             margin-top: 25px;
         }
         .form-newsletter {

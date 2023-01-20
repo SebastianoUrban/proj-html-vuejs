@@ -2,7 +2,7 @@
     <section>
         <div class="section-up d-flex flex-column align-items-center">
             <HandwriteText :text="data.title"/>
-            <p class="text-center">{{ data.body }}</p>
+            <p class="text-center font-body">{{ data.body }}</p>
             <ButtonComponent :text="data.buttonText" :customWidth="'200px'" :color="data.buttonColor"/>
         </div>
     </section>
@@ -32,7 +32,6 @@
         margin: 0 auto;
         padding: 100px 0;
         p {
-            font-family: $font-body;
             font-size: 2rem;
             font-weight: 500;
             margin-bottom: 40px;

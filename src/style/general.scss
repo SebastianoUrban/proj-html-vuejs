@@ -1,5 +1,58 @@
+@use './variables' as *;
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.font-title {
+    font-family: $font-title;
+}
+
+.font-body {
+    font-family: $font-body;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.color-primary {
+    color: $color-cube-5;
+}
+
+.color-secondary {
+    color: $material-design-3;
+}
+
+.color-light {
+    color: $color-cube-1;
+}
+
+.color-dark {
+    color: $color-cube-2;
+}
+
+.color-mid-light {
+    color: $color-cube-4;
+}
+
+.color-mid-dark {
+    color: $color-cube-3;
+}
+
+.bg-colored {
+    background-color: $median-cut-1;
+}
+
+.bg-cover-centered {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-contain-centered {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }

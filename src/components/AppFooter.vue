@@ -54,6 +54,7 @@
     @use '../style/variables' as *;
 
     footer {
+        background-size: cover;
         .wrapper {
             background: linear-gradient( to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.75) 100% );
             img{
@@ -77,7 +78,7 @@
             .footer-up {
                 width: 60%;
                 margin: 0 auto;
-                padding: 100px 0 50px 0;
+                padding: 150px 0 ;
                 h1 {
                     font-family: $font-title;
                     font-size: 2rem;

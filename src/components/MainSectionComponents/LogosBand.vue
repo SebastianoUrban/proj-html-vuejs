@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="bg-colored">
         <div class="section-up d-flex justify-content-evenly">
             <img :src="logo" alt="" v-for="logo in data">
         </div>
@@ -18,7 +18,6 @@
     @use '../../style/variables' as *;
     section {
         width: 100%;
-        background-color: $median-cut-1;
     }
     div.section-up {
         width: 60%;

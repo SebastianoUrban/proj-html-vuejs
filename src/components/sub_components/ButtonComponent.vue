@@ -1,5 +1,5 @@
 <template>
-    <button :style="{width : customWidth}" :class="color">
+    <button :style="{width : customWidth}" :class="color" class="font-body color-light">
         {{ text }}
     </button>
 </template>
@@ -18,11 +18,9 @@
     @use '../../style/variables' as *;
     button {
         line-height: 50px;
-        font-family: $font-body;
         font-weight: 500;
         padding: 0 1rem;
         border-radius: $btn-border-radius;
-        color: $color-cube-1;
         border: none;
         &:hover {
             filter: grayscale(30%)

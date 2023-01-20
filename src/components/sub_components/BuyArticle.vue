@@ -1,16 +1,16 @@
 <template>
-  <div class="background " >
-    <div class="buy-up d-flex justify-content-around">
-      <div class="buy-image" :style="{backgroundImage: 'url('+ data.image +')'}"></div>
-      <div class="buy-text d-flex flex-column justify-content-center">
-        <h1 class="buy-title">{{ data.title }}</h1>
-        <h2 class="buy-subtitle">{{ data.subtitle }}</h2>
-        <p class="buy-body">{{ data.body }}</p>
+  <div class="background h-50 w-100" >
+    <div class="buy-up w-100 d-flex justify-content-around">
+      <div class="buy-image w-50 h-100 bg-contain-centered" :style="{backgroundImage: 'url('+ data.image +')'}"></div>
+      <div class="buy-text w-50 h-100 d-flex flex-column justify-content-center">
+        <h1 class="buy-title font-title font-bold color-dark">{{ data.title }}</h1>
+        <h2 class="buy-subtitle font-body color-primary">{{ data.subtitle }}</h2>
+        <p class="buy-body font-body color-mid-light">{{ data.body }}</p>
       </div>
     </div>
-    <div class="buy-down">
-      <button class="buy-amazon"><i class="fa-brands fa-amazon"></i> Buy On Amazon</button>
-      <button class="buy-apple"><i class="fa-brands fa-apple"></i> Buy On AppleStore</button>
+    <div class="buy-down w-100 font-bold">
+      <button class="buy-amazon w-50 font-bold color-dark" ><i class="fa-brands fa-amazon"></i> Buy On Amazon</button>
+      <button class="buy-apple w-50 font-bold color-dark"><i class="fa-brands fa-apple"></i> Buy On AppleStore</button>
     </div>
   </div>
   
@@ -27,56 +27,33 @@
 <style lang="scss" scoped>
   @use '../../style/variables' as *;
   div.background {
-    width: 100%;
-    height: 50%;
     background-color: $color-cube-1;
     padding: 10%;
-
     div.buy-up {
-    width: 100%;
     height: 80%;
-      div.buy-image {
-        width: 50%;
-        height: 100%;
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-      }
       div.buy-text {
-        width: 50%;
-        height: 100%;
         .buy-title {
-          font-family: $font-title;
-          font-weight: 700;
           font-size: 2rem;
         }
         .buy-subtitle {
-          font-family: $font-body;
           font-weight: 600;
           font-size: 1.2rem;
-          color: $color-cube-5;
           margin-top: 1rem;
         }
         .buy-body {
-          font-family: $font-body;
           font-weight: 600;
           font-size: 1rem;
-          color: $color-cube-4;
           margin-top: 1rem;
         }
       }
     }
     div.buy-down {
-      width: 100%;
       height: 20%;
       button {
-        width: 50%;
         height: 60px;
         border: 1px solid $material-design-3;
         background-color: $color-cube-1;
-        color: $color-cube-2;
         font-size: 1.1rem;
-        font-weight: bold;
         box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.1);
         &:hover {
           background-color: $material-design-3;
