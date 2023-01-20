@@ -19,7 +19,7 @@
           <h4>Demos</h4>
         </div>
         <div class="tag color-mid-dark">
-          <p><span class="dol color-secondary font-bold">$</span><span class="price color-secondary">{{ data[activeIndex].price }}</span></p>
+          <p><span class="dol color-secondary font-bold">$</span><span class="price color-secondary font-light-bold">{{ data[activeIndex].price }}</span></p>
           <h4>On Sale</h4>
         </div>
       </div>
@@ -68,9 +68,6 @@
           p {
             font-size: 2rem;
             margin: 0;
-            .price {
-              font-weight: 600;
-            }
             .dol {
               font-size: 1rem;
               vertical-align: text-top;

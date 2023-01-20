@@ -3,7 +3,7 @@
         <div class="section-up d-flex justify-content-between">
             <div class="section-left w-50">
                 <h1 class="font-title color-dark font-bold">{{ data.title }}</h1>
-                <h2 class="font-bodt color-secondary">{{ data.subtitle }}</h2>
+                <h2 class="font-bodt color-secondary font-light-bold">{{ data.subtitle }}</h2>
             </div>
             <div class="section-right d-flex align-items-center">
                 <ButtonComponent :text="data.buttonText" :customWidth="'300px'" :color="data.buttonColor"/>
@@ -54,7 +54,6 @@
             }
             h2 {
             font-size: 1.5rem;
-            font-weight: 500;
             margin-top: 1rem;
             }
         }

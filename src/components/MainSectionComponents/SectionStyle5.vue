@@ -2,12 +2,12 @@
     <section :style="{backgroundImage : 'url('+ data.image +')'}" class="bg-cover-centered w-100">
         <div class="section-up d-flex flex-column align-items-center text-center">
             <h1 class="font-title font-bold color-light">{{ data.title }}</h1>
-            <h2 class="font-body color-primary">{{ data.subtitle }}</h2>
+            <h2 class="font-body color-primary font-light-bold">{{ data.subtitle }}</h2>
             <div class="form-newsletter">
                 <input type="text" name="" id="" placeholder="Insert your email ...">
                 <ButtonComponent :text="data.buttonText" :customWidth="'200px'" :color="data.buttonColor"/>
             </div>
-            <p class="font-body color-mid-light">{{ data.body }}</p>
+            <p class="font-body color-mid-light font-light-bold">{{ data.body }}</p>
         </div>
     </section>
 </template>
@@ -39,13 +39,11 @@
         }
         h2 {
             font-size: 1.5rem;
-            font-weight: 500;
             margin-top: 20px;
         }
         p {
             width: 25%;
             font-size: 1.2rem;
-            font-weight: 600;
             margin-top: 25px;
         }
         .form-newsletter {

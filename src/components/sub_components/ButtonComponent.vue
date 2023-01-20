@@ -1,5 +1,5 @@
 <template>
-    <button :style="{width : customWidth}" :class="color" class="font-body color-light">
+    <button :style="{width : customWidth}" :class="color" class="font-body color-light font-light-bold">
         {{ text }}
     </button>
 </template>
@@ -18,7 +18,6 @@
     @use '../../style/variables' as *;
     button {
         line-height: 50px;
-        font-weight: 500;
         padding: 0 1rem;
         border-radius: $btn-border-radius;
         border: none;

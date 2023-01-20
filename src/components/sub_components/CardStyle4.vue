@@ -5,7 +5,7 @@
       <div>
         <hr class="color-light">
       </div>
-      <h2 class="color-primary">{{ data.subtitle }}</h2>
+      <h2 class="color-primary font-light-bold">{{ data.subtitle }}</h2>
     </div>
   </article>
 </template>
@@ -40,8 +40,7 @@
         }
       }
       h2 {
-        font-size: 1rem;
-        font-weight: 500;
+        font-size: 1.3rem;
         margin-top: 15px;
       }
     }

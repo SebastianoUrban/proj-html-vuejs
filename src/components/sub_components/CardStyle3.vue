@@ -4,9 +4,9 @@
       <img :src="data.image" alt="" class="w-100">
     </div>
     <div class="card-down font-body text-center">
-      <h1 class="color-dark">{{ data.title }}</h1>
+      <h1 class="color-dark font-light-bold">{{ data.title }}</h1>
       <hr class="color-mid-light">
-      <p class="color-mid-dark">{{ data.body }}</p>
+      <p class="color-mid-dark font-light-bold">{{ data.body }}</p>
     </div>
   </article>
 </template>
@@ -28,12 +28,10 @@
       padding: 30px 20px;
       h1 {
       font-size: 2rem;
-      font-weight: 500;
       margin-bottom: 20px;
       }
       p {
         font-size: 1.2rem;
-        font-weight: 500;
         margin-top: 25px;
       }
     }

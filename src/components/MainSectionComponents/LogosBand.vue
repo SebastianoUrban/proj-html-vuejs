@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-colored">
+    <section class="bg-colored w-100">
         <div class="section-up d-flex justify-content-evenly">
             <img :src="logo" alt="" v-for="logo in data">
         </div>
@@ -16,9 +16,6 @@
 
 <style lang="scss" scoped>
     @use '../../style/variables' as *;
-    section {
-        width: 100%;
-    }
     div.section-up {
         width: 60%;
         margin: 0 auto;

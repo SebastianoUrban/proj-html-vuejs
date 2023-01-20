@@ -2,13 +2,13 @@
   <article :style="{backgroundImage : 'url('+ data.image +')'}" class="bg-cover-centered w-100 color-light"> 
     <h1 class="font-title font-bold">{{ data.title }}</h1>
     <hr>
-    <h2 class="font-body">{{ data.subtitle }}</h2>
+    <h2 class="font-body font-light-bold">{{ data.subtitle }}</h2>
     <p class="font-body" v-for="paragraph in data.body">
       {{ paragraph }}
     </p>
     <div class="author-data d-flex align-items-center">
       <img :src="data.logo" alt="">
-      <h3 class="font-body">{{ data.author }} ,  <span class="color-secondary">{{ data.newspaper }}</span></h3>
+      <h3 class="font-body font-light-bold">{{ data.author }} ,  <span class="color-secondary">{{ data.newspaper }}</span></h3>
     </div>
   </article>
 </template>
@@ -35,7 +35,6 @@
     }
     h2 {
       font-size: 1.5rem;
-      font-weight: 500;
       margin-top: 2rem;
     }
     p {
@@ -51,7 +50,6 @@
       }
       h3 {
         font-size: 1.2rem;
-        font-weight: 600;
         margin-top: 1.5rem;
       }
     }

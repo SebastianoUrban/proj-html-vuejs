@@ -1,5 +1,5 @@
 <template>
-    <h3>
+    <h3 class="color-primary">
         {{ text }}
     </h3>
 </template>
@@ -17,6 +17,5 @@
     h3 {
         font-family: $font-handwrite;
         font-size: 7rem;
-        color: $color-cube-5;
     }
 </style>

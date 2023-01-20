@@ -2,7 +2,7 @@
     <section class="bg-colored w-100 d-flex flex-column align-items-center">
         <div class="section-up text-center">
             <h1 class="font-title font-bold color-dark">{{ data.title }}</h1>
-            <h2 class="font-body color-primary">{{ data.subtitle }}</h2>
+            <h2 class="font-body color-primary font-light-bold">{{ data.subtitle }}</h2>
         </div>
             
         <div class="section-down d-flex justify-content-between">
@@ -35,7 +35,6 @@
         }
         h2 {
             font-size: 1.5rem;
-            font-weight: 500;
             margin-top: 20px;
         }
     }
