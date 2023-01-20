@@ -28,7 +28,6 @@
     @use '../../style/variables' as *;
     section {
         width: 100%;
-        background-color: $median-cut-1;
         padding: 100px 0;
 
     }

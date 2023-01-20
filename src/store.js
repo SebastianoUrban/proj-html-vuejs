@@ -108,5 +108,28 @@ export const store = reactive({
                 title : 'Book Signing',
                 subtitle : 'Lorem ipsum dolor sit',
             }]
+    },
+    Section7 : {
+        title : 'Recent Articles',
+        subtitle : 'READ THE LATEST ENTRIES',
+        buttonText : 'All Articles',
+        buttonColor : 'orange',
+        mainCard : {
+            image : 'src/assets/images/20-Tips-scaled.jpg',
+            title : '20 Creativity Tips',
+            metaData : 'By admin | October 24th, 2019 | Categories: Event, Tips & Tricks',
+            body : [
+                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil in voluptates quia deserunt;',
+                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil in']
+        },
+        secondaryCards : [{
+            image : 'src/assets/images/thumb-13-2x-320x202.jpg',
+            title : "What's On Your Booklist?",
+            metaData : 'October 24th, 2019 | 0 Comments'
+        },{
+            image : 'src/assets/images/thumb-08-2x-320x202.jpg',
+            title : 'Istambus Travel Guide',
+            metaData : 'October 24th, 2019 | 0 Comments'
+        }]
     }
 });
