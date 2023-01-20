@@ -22,7 +22,7 @@
   @use '../../style/variables' as *;
   article {
     width: 30%;
-    height: 550px;
+    aspect-ratio: 0.8;
     background-size: cover;
     border-bottom-right-radius: 40px;
     overflow: hidden;

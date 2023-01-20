@@ -7,7 +7,7 @@
                 <h1>{{ data.title }}</h1>
                 <h2>{{ data.subtitle }}</h2>
                 <p>{{ data.body }}</p>
-                <div class="logos w-100 d-flex justify-content-between">
+                <div class="logos d-flex justify-content-between">
                     <img :src="logo" alt="" v-for="logo in data.logos">
                 </div>
             </div>
@@ -53,24 +53,29 @@
         div.section-right {
             width: 50%;
             h1 {
-            font-family: $font-title;
-            font-size: 3rem;
-            font-weight: bold;
-            color: $color-cube-1;
+                font-family: $font-title;
+                font-size: 3rem;
+                font-weight: bold;
+                color: $color-cube-1;
             }
             h2 {
-            font-family: $font-body;
-            font-size: 1.5rem;
-            font-weight: 500;
-            color: $color-cube-5;
-            margin-top: 1rem;
+                font-family: $font-body;
+                font-size: 1.5rem;
+                font-weight: 500;
+                color: $color-cube-5;
+                margin-top: 1rem;
             }
             p {
-            font-family: $font-body;
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: $color-cube-4;
-            margin-top: 1.5rem;
+                width: 70%;
+                margin: 30px auto;
+                font-family: $font-body;
+                font-size: 1.2rem;
+                font-weight: 600;
+                color: $color-cube-4;
+            }
+            .logos {
+                width: 75%;
+                margin: 0 auto;
             }
         }
     }

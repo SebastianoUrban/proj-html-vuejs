@@ -129,7 +129,7 @@ export const store = reactive({
             metaData : 'October 24th, 2019 | 0 Comments'
         },{
             image : 'src/assets/images/thumb-08-2x-320x202.jpg',
-            title : 'Istambus Travel Guide',
+            title : 'Istambul Travel Guide',
             metaData : 'October 24th, 2019 | 0 Comments'
         }]
     },
@@ -146,7 +146,6 @@ export const store = reactive({
             title : 'CONTACT INFO',
             body : [ '63 E. Studebaker Street Bolingbrook, IL 60440', 'Phone: (800) 000-0000', 'Mobile: (800) 000-0000', 'Email: info@your-company.com']
         },
-        copyright : '© Copyright 2012-2020 ! Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress',
         background : 'src/assets/images/hero-07-2x.jpg'
     }
 });

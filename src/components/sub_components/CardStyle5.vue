@@ -24,7 +24,7 @@
   article {
     width: 100%;
     height: 100%;
-    padding: 7%;
+    padding: 5% 5% 0 5%;
     background-color: $color-cube-1;
     .card-up {
       width: 100%;
@@ -35,11 +35,11 @@
     .card-down {
       width: 100%;
       h1 {
-      font-family: $font-body;
-      font-size: 2rem;
-      font-weight: 600;
-      color: $color-cube-2;
-      margin-top: 30px;
+        font-family: $font-body;
+        font-size: 2rem;
+        font-weight: 600;
+        color: $color-cube-2;
+        margin-top: 30px;
       }
       h2 {
         font-family: $font-body;

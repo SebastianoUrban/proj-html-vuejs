@@ -40,11 +40,11 @@
             color: $color-cube-2;
         }
         h2 {
-        font-family: $font-body;
-        font-size: 1.5rem;
-        font-weight: 500;
-        color: $color-cube-5;
-        margin-top: 2rem;
+            font-family: $font-body;
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: $color-cube-5;
+            margin-top: 20px;
         }
     }
     div.section-down {

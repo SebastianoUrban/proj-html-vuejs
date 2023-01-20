@@ -25,7 +25,7 @@
   @use '../../style/variables' as *;
   article {
     width: 100%;
-    padding: 15% 10%;
+    padding: 15% 12%;
     background-size: cover;
     background-position: center;
     border-bottom-right-radius: 80px;

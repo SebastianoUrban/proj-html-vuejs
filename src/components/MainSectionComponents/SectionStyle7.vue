@@ -40,7 +40,7 @@
     @use '../../style/variables' as *;
     section {
         width: 100%;
-        padding: 50px 0;
+        padding: 150px 0;
         background-color: $median-cut-1;
 
     }

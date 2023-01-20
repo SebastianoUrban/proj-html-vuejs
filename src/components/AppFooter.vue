@@ -20,11 +20,18 @@
                         <li v-for="element in store.footer.section3.body" :key="element.id">
                             {{ element }}
                         </li>
+                        <li>
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="footer-down">
-                <p>{{ store.footer.copyright }}</p>
+            <div class="footer-down text-center">
+                <p>© Copyright 2012-2020 ! Avada Theme by <span class="copyrigth-special">ThemeFusion</span> | All Rights Reserved | Powered by <span class="copyrigth-special">WordPress</span></p>
             </div>
             <img src="../assets/images/author-logo-round.png" alt="">
             <button><i class="fa-solid fa-angle-up"></i></button>
@@ -48,12 +55,13 @@
 
     footer {
         .wrapper {
-            background: linear-gradient( to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100% );
+            background: linear-gradient( to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.75) 100% );
             img{
-                width: 10%;
+                width: 8%;
                 position: absolute;
-                top: 25%;
+                top: 35%;
                 left: 10%;
+                transform: translate(-50%, -50%);
             }
             button {
                 width: 50px;
@@ -69,7 +77,7 @@
             .footer-up {
                 width: 60%;
                 margin: 0 auto;
-                padding: 100px;
+                padding: 100px 0 50px 0;
                 h1 {
                     font-family: $font-title;
                     font-size: 2rem;
@@ -97,18 +105,25 @@
                 }
                 .section3 {
                     width: 30%;
+                    i {
+                        margin-right: 20px;
+                    }
                 }
             }
             .footer-down {
                 width: 60%;
                 margin: 0 auto;
-                padding: 50px 100px;
+                padding-bottom: 50px;
                 p {
                     font-family: $font-body;
                     font-size: 1.2rem;
                     font-weight: 400;
-                    color: $color-cube-1;
+                    color: $color-cube-4;
                     margin-bottom: 15px;
+                    .copyrigth-special {
+                        font-weight: 600;
+                        color: $color-cube-1;
+                    }
                 }
 
             }

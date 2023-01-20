@@ -33,6 +33,7 @@
             position: absolute;
             width: 80%;
             margin: 0 10%;
+            z-index: 1;
             img {
                 height: 275px;
             }

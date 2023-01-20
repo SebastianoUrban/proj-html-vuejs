@@ -74,8 +74,14 @@
         height: 60px;
         border: 1px solid $material-design-3;
         background-color: $color-cube-1;
+        color: $color-cube-2;
         font-size: 1.1rem;
         font-weight: bold;
+        box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.1);
+        &:hover {
+          background-color: $material-design-3;
+          color: $color-cube-1;
+        }
         i {
           margin-right: 10px;
         }

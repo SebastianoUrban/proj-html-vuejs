@@ -112,12 +112,12 @@
             width: 60px;
             height: 60px;
             border: none;
-            color: $color-cube-1;
             background-color: $color-cube-2;
             font-size: 1.5rem;
             font-weight: bold;
             i {
               margin-right: 10px;
+              color: $color-cube-1;
             }
             &.prev {
               border-top-left-radius: $btn-border-radius;
