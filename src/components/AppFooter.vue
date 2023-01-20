@@ -3,11 +3,11 @@
         <div class="wrapper position-relative">
             <div class="footer-up d-flex justify-content-between">
                 <div class="section1">
-                    <h1>{{ store.footer.section1.title }}</h1>
+                    <h1 class="font-title color-light">{{ store.footer.section1.title }}</h1>
                     <p>{{ store.footer.section1.body }}</p>
                 </div>
                 <div class="section2">
-                    <h1>{{ store.footer.section2.title }}</h1>
+                    <h1 class="font-title color-light">{{ store.footer.section2.title }}</h1>
                     <ul class="list-unstyled">
                         <li v-for="element in store.footer.section2.body" :key="element.id">
                             {{ element }}
@@ -15,7 +15,7 @@
                     </ul>
                 </div>
                 <div class="section3">
-                    <h1>{{ store.footer.section3.title }}</h1>
+                    <h1 class="font-title color-light">{{ store.footer.section3.title }}</h1>
                     <ul class="list-unstyled">
                         <li v-for="element in store.footer.section3.body" :key="element.id">
                             {{ element }}
@@ -31,7 +31,9 @@
                 </div>
             </div>
             <div class="footer-down text-center">
-                <p>© Copyright 2012-2020 ! Avada Theme by <span class="copyrigth-special">ThemeFusion</span> | All Rights Reserved | Powered by <span class="copyrigth-special">WordPress</span></p>
+                <p class="font-body color-mid-light">
+                    © Copyright 2012-2020 ! Avada Theme by <span class="color-light font-light-bold">ThemeFusion</span> | All Rights Reserved | Powered by <span class="color-light font-light-bold">WordPress</span>
+                </p>
             </div>
             <img src="../assets/images/author-logo-round.png" alt="">
             <button><i class="fa-solid fa-angle-up"></i></button>
@@ -80,10 +82,8 @@
                 margin: 0 auto;
                 padding: 150px 0 ;
                 h1 {
-                    font-family: $font-title;
                     font-size: 2rem;
                     font-weight: 600;
-                    color: $color-cube-1;
                     margin-bottom: 40px;
                 }
                 p, li {
@@ -116,15 +116,9 @@
                 margin: 0 auto;
                 padding-bottom: 50px;
                 p {
-                    font-family: $font-body;
                     font-size: 1.2rem;
                     font-weight: 400;
-                    color: $color-cube-4;
                     margin-bottom: 15px;
-                    .copyrigth-special {
-                        font-weight: 600;
-                        color: $color-cube-1;
-                    }
                 }
 
             }
