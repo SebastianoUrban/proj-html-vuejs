@@ -24,6 +24,9 @@
         border-radius: $btn-border-radius;
         color: $color-cube-1;
         border: none;
+        &:hover {
+            filter: grayscale(30%)
+        }
     }
     .orange {
         background-color: $color-cube-5;
